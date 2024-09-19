@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">  <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade para dispositivos móveis -->
+    <link rel="stylesheet" href="style.css">  <!-- Link para o arquivo de estilos CSS -->
+    <title>Women in STEM</title> <!-- Título da página que aparece na aba do navegador -->
+</head>
+<body>
+    <header>
+        <h1>Mulheres em STEM</h1> <!-- Cabeçalho principal da página -->
+    </header>
+    <main>
+        <section> 
+            <input type="text"  placeholder="Digite o nome de uma cientista" id="campo-pesquisa"> <!-- Campo de entrada para pesquisa -->
+            <button onclick="pesquisar()">Pesquisar</button> <!-- Botão que aciona a função de pesquisa -->
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"><!-- Seção onde os resultados da pesquisa serão exibidos -->
+        </section>
+    </main>
+    <footer>
+        <p>2024 - feito por Maria</p> <!-- Rodapé com informação de autoria e ano -->
+    </footer>
+    <script src="dados.js"></script> <!-- Script para carregar dados relacionados à pesquisa -->
+    <script src="apps.js"></script> <!-- Script com funcionalidades da aplicação -->
+</body>
+</html>
