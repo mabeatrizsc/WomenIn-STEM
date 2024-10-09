@@ -1,5 +1,5 @@
 # WomenIn-STEM
-Projeto construído durante a imersão Dev Alura + Google Gimini 
+Projeto construído durante a imersão Dev Alura + Google Gemini 
 
 ## Mulheres em STEM
 
